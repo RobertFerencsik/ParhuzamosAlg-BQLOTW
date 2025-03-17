@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+#include <windows.h>
+
+int main() {
+        int szam;
+        int randomNum = rand();
+
+    printf("random szam %= ",randomNum);
+
+        // Felhasználótól bekért szám
+        printf("Adj meg egy egesz szamot: ");
+        scanf("%d", &szam);
+
+        printf("Let's wait for a second");
+        Sleep(1000);
+
+        // Jobbra igazított, szóközökkel kitöltve
+        printf("Szokozzel: [%8d]\n", szam);
+
+        // Jobbra igazított, nullákkal kitöltve
+        printf("Nullakkal: [%08d]\n", szam);
+
+        return 0;
+
+}
