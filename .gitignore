@@ -1,1 +1,8 @@
 *.exe
+
+*.sln
+*.csproj
+
+**/.vs/
+**/bin/
+**/obj/
